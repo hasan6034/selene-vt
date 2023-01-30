@@ -1651,7 +1651,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/selene/proprietary/vendor/lib64/libsdk_sr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsdk_sr.so \
     vendor/xiaomi/selene/proprietary/vendor/lib64/libsensor_custom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensor_custom.so \
     vendor/xiaomi/selene/proprietary/vendor/lib64/libsimaka.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsimaka.so \
-    vendor/xiaomi/selene/proprietary/vendor/lib64/libsoft_attestation_cert.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsoft_attestation_cert.so \
     vendor/xiaomi/selene/proprietary/vendor/lib64/libspeech_enh_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libspeech_enh_lib.so \
     vendor/xiaomi/selene/proprietary/vendor/lib64/libspeechparser_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libspeechparser_vendor.so \
     vendor/xiaomi/selene/proprietary/vendor/lib64/libssl-mdapp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libssl-mdapp.so \
