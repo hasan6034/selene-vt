@@ -1331,7 +1331,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/selene/proprietary/vendor/lib64/hw/audio.usb.mt6768.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.usb.mt6768.so \
     vendor/xiaomi/selene/proprietary/vendor/lib64/hw/consumerir.mt6768.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/consumerir.mt6768.so \
     vendor/xiaomi/selene/proprietary/vendor/lib64/hw/dfps.mt6768.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/dfps.mt6768.so \
-    vendor/xiaomi/selene/proprietary/vendor/lib64/hw/fingerprint.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.default.so \
+    vendor/xiaomi/selene/proprietary/vendor/lib64/hw/fingerprint.selene.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.selene.so \
     vendor/xiaomi/selene/proprietary/vendor/lib64/hw/gatekeeper.beanpod.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gatekeeper.beanpod.so \
     vendor/xiaomi/selene/proprietary/vendor/lib64/hw/gf_fingerprint.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gf_fingerprint.default.so \
     vendor/xiaomi/selene/proprietary/vendor/lib64/hw/gps.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gps.default.so \
