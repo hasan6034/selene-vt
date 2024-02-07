@@ -96,7 +96,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/selene/proprietary/vendor/bin/hw/android.hardware.sensors@2.0-service-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.sensors@2.0-service-mediatek \
     vendor/xiaomi/selene/proprietary/vendor/bin/hw/android.hardware.thermal@2.0-service.mtk:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.thermal@2.0-service.mtk \
     vendor/xiaomi/selene/proprietary/vendor/bin/hw/camerahalserver:$(TARGET_COPY_OUT_VENDOR)/bin/hw/camerahalserver \
-    vendor/xiaomi/selene/proprietary/vendor/bin/hw/hostapd:$(TARGET_COPY_OUT_VENDOR)/bin/hw/hostapd \
     vendor/xiaomi/selene/proprietary/vendor/bin/hw/mtkfusionrild:$(TARGET_COPY_OUT_VENDOR)/bin/hw/mtkfusionrild \
     vendor/xiaomi/selene/proprietary/vendor/bin/hw/vendor.mediatek.hardware.dfps@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.mediatek.hardware.dfps@1.0-service \
     vendor/xiaomi/selene/proprietary/vendor/bin/hw/vendor.mediatek.hardware.dplanner@2.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.mediatek.hardware.dplanner@2.0-service \
@@ -111,7 +110,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/selene/proprietary/vendor/bin/hw/vendor.microtrust.hardware.soter@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.microtrust.hardware.soter@1.0-service \
     vendor/xiaomi/selene/proprietary/vendor/bin/hw/vendor.nxp.hardware.nfc@1.2-service_selene:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.nxp.hardware.nfc@1.2-service_selene \
     vendor/xiaomi/selene/proprietary/vendor/bin/hw/vtservice_hidl:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vtservice_hidl \
-    vendor/xiaomi/selene/proprietary/vendor/bin/hw/wpa_supplicant:$(TARGET_COPY_OUT_VENDOR)/bin/hw/wpa_supplicant \
     vendor/xiaomi/selene/proprietary/vendor/bin/i2cdetect:$(TARGET_COPY_OUT_VENDOR)/bin/i2cdetect \
     vendor/xiaomi/selene/proprietary/vendor/bin/i2cdump:$(TARGET_COPY_OUT_VENDOR)/bin/i2cdump \
     vendor/xiaomi/selene/proprietary/vendor/bin/i2cget:$(TARGET_COPY_OUT_VENDOR)/bin/i2cget \
@@ -664,7 +662,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/selene/proprietary/vendor/etc/init/android.hardware.keymaster@4.0-service.beanpod.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.keymaster@4.0-service.beanpod.rc \
     vendor/xiaomi/selene/proprietary/vendor/etc/init/android.hardware.sensors@2.0-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.sensors@2.0-service-mediatek.rc \
     vendor/xiaomi/selene/proprietary/vendor/etc/init/android.hardware.thermal@2.0-service.mtk.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.thermal@2.0-service.mtk.rc \
-    vendor/xiaomi/selene/proprietary/vendor/etc/init/android.hardware.wifi.supplicant-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.wifi.supplicant-service.rc \
     vendor/xiaomi/selene/proprietary/vendor/etc/init/atcid.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/atcid.rc \
     vendor/xiaomi/selene/proprietary/vendor/etc/init/audiocmdservice_atci.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/audiocmdservice_atci.rc \
     vendor/xiaomi/selene/proprietary/vendor/etc/init/bootperf.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/bootperf.rc \
@@ -675,7 +672,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/selene/proprietary/vendor/etc/init/fuelgauged_init.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/fuelgauged_init.rc \
     vendor/xiaomi/selene/proprietary/vendor/etc/init/fuelgauged_nvram_init.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/fuelgauged_nvram_init.rc \
     vendor/xiaomi/selene/proprietary/vendor/etc/init/gsm0710muxd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/gsm0710muxd.rc \
-    vendor/xiaomi/selene/proprietary/vendor/etc/init/hostapd.android.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hostapd.android.rc \
     vendor/xiaomi/selene/proprietary/vendor/etc/init/init.bip.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.bip.rc \
     vendor/xiaomi/selene/proprietary/vendor/etc/init/init.bt_drv.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.bt_drv.rc \
     vendor/xiaomi/selene/proprietary/vendor/etc/init/init.cccifsd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.cccifsd.rc \
@@ -1655,7 +1651,5 @@ PRODUCT_PACKAGES += \
     mediatek-telephony-base \
     mediatek-telephony-common \
     vendor.mediatek.hardware.gpu@1.0-service \
-    android.hardware.wifi.hostapd \
-    wpa_supplicant \
     manifest_android.hardware.drm@1.3-service.widevine \
     vendor.mediatek.hardware.dplanner@2.0-service
