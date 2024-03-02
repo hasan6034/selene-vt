@@ -1523,8 +1523,8 @@
         type="default,supl"
         mvno_match_data="Coriolis"
         mvno_type="spn"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
+        protocol="IP"
+        roaming_protocol="IP"
     />
 
     <apn carrier="mmscoriolis"
@@ -1537,8 +1537,8 @@
         type="mms"
         mvno_match_data="Coriolis"
         mvno_type="spn"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
+        protocol="IP"
+        roaming_protocol="IP"
     />
 
     <apn carrier="Orange World IMS"
@@ -5249,7 +5249,7 @@
         mmsport="8799"
         authtype="1"
         type="default,supl,mms"
-        protocol="IPV4V6"
+        protocol="IP"
         roaming_protocol="IP"
         read_only="true"
     />
@@ -7272,6 +7272,7 @@
         mmsport="8080"
         mmsproxy="192.168.150.2"
         password="mms"
+        authtype="1"
         type="mms"
         user="mms@mms"
         protocol="IP"
@@ -8226,6 +8227,13 @@
       type="mms"
   />
 
+  <apn carrier="ims"
+        mcc="259"
+        mnc="02"
+        apn="ims"
+        type="ims"
+    />
+
     <apn carrier="MD - Unite Web"
         mcc="259"
         mnc="03"
@@ -8451,7 +8459,7 @@
         type="mms"
     />
 
-    <apn carrier="ims"
+    <apn carrier="Play IMS"
         mcc="260"
         mnc="06"
         apn="ims"
@@ -8515,7 +8523,7 @@
         type="default,supl,mms"
     />
 
-    <apn carrier="PLAY Internet"
+    <apn carrier="internet"
         mcc="260"
         mnc="98"
         apn="internet"
@@ -8532,7 +8540,7 @@
         type="mms"
     />
 
-    <apn carrier="PLAY IMS"
+    <apn carrier="IMS"
         mcc="260"
         mnc="98"
         apn="ims"
@@ -36432,6 +36440,7 @@
         mmsport="8799"
         mmsproxy="mms.three.com.hk"
         type="default,mms,dun"
+        protocol="IP"
     />
 
     <apn carrier="3 share"
@@ -39103,7 +39112,7 @@
         apn="Smartfren4G"
         type="default,supl"
         protocol="IPV4V6"
-        roaming_protocol="IP"
+        roaming_protocol="IPV4V6"
     />
 
     <apn carrier="IMS"
@@ -39112,7 +39121,7 @@
         apn="ims"
         type="ims"
         protocol="IPV4V6"
-        roaming_protocol="IP"
+        roaming_protocol="IPV4V6"
     />
 
     <apn carrier="Telkomsel GPRS WEB"
@@ -39193,7 +39202,7 @@
         apn="Smartfren4G"
         type="default,supl"
         protocol="IPV4V6"
-        roaming_protocol="IP"
+        roaming_protocol="IPV4V6"
     />
 
     <apn carrier="IMS"
@@ -39202,7 +39211,7 @@
         apn="ims"
         type="ims"
         protocol="IPV4V6"
-        roaming_protocol="IP"
+        roaming_protocol="IPV4V6"
     />
 
     <apn carrier="Internux"
@@ -40702,6 +40711,14 @@
         port="8080"
         proxy="212.217.54.133"
         type="default,supl"
+    />
+
+    <apn carrier="IMS"
+        mcc="604"
+        mnc="01"
+        apn="ims"
+        type="ims"
+        protocol="IP"
     />
 
     <apn carrier="Internet"
