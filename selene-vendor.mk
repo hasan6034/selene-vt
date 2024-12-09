@@ -6,6 +6,8 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/xiaomi/selene
 
 PRODUCT_COPY_FILES += \
+    vendor/xiaomi/selene/proprietary/vendor/lib/libalsautils-v30.so:$(TARGET_COPY_OUT_VENDOR)/lib/libalsautils-v30.so \
+    vendor/xiaomi/selene/proprietary/vendor/lib64/libalsautils-v30.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libalsautils-v30.so \
     vendor/xiaomi/selene/proprietary/bin/iwpriv:$(TARGET_COPY_OUT_SYSTEM)/bin/iwpriv \
     vendor/xiaomi/selene/proprietary/system_ext/bin/kpoc_charger:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/kpoc_charger \
     vendor/xiaomi/selene/proprietary/system_ext/bin/vtservice:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/vtservice \
